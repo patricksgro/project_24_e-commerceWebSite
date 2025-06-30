@@ -1,0 +1,23 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: whitesmoke;
+}
+
+.btnCollapse {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1000px) {
+      .form-col {
+        order: 1;
+      }
+      .preview-col {
+        order: 2;
+      }
+    }

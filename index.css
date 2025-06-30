@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-image: url('https://enigma.swiss/wp-content/uploads/2024/04/Website-01-1920x1080.jpg');
+    height: 75vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+.btnCollapse {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*FORM*/
+#name:focus , #description:focus, #brand:focus, #image:focus, #price:focus {
+    outline: none;
+    border-color: rgb(101, 45, 231);
+    box-shadow: 0 0 0 0.25rem rgba(101, 45, 231, 0.25);
+}
+
+@media (max-width: 1399.98px) {
+  #divCol, #formCol {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+}
+
+/* Layout a due colonne sopra i 1400px */
+@media (min-width: 1400px) {
+  #divCol {
+    width: 58.33333333%; /* 7 / 12 */
+    flex: 0 0 58.33333333%;
+  }
+
+  #formCol {
+    width: 41.66666667%; /* 5 / 12 */
+    flex: 0 0 41.66666667%;
+  }
+}
